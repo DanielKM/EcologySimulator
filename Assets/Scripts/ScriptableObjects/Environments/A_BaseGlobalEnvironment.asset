@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b40bdaf9d3f49d4c8174e835a1ef3bd, type: 3}
+  m_Name: A_BaseGlobalEnvironment
+  m_EditorClassIdentifier: 
+  globalEnvironmentName: Base Global Environment
+  biomes:
+  - {fileID: 11400000, guid: daf4e572c7df9634cb638a0917f75509, type: 2}
+  averageTemperature: 20

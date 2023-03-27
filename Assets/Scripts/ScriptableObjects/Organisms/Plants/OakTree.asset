@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57be8d0c26cb9e2438a3537b3d2038e8, type: 3}
+  m_Name: OakTree
+  m_EditorClassIdentifier: 
+  organismName: Oak Tree
+  prefab: {fileID: 8560146940881090777, guid: c626a976c9c4c7c4da4ece724a4865b8, type: 3}
+  trophicLevel: 0
+  kingdom: 1
+  phylum: 0
+  resourceStatus: 1
+  movement: 00000000
+  sexes: 0100000002000000
+  needs:
+  - {fileID: 11400000, guid: c856c84d629290742b77f91c3fa11230, type: 2}
+  - {fileID: 11400000, guid: 999eeb99ca9047d45874703170f97e88, type: 2}
+  - {fileID: 11400000, guid: 405395a6cb9ca624a814f735e856223b, type: 2}
+  - {fileID: 11400000, guid: 06d08eb86fd371c4b85aa181530a17b7, type: 2}
+  - {fileID: 11400000, guid: e995118a166290a4683da243e5f21360, type: 2}
+  growthStages:
+  - {fileID: 11400000, guid: 6d20a5f32a600d547968e2739d8b6b1f, type: 2}
+  - {fileID: 11400000, guid: 55e3e0ab5dc03194fa04625b0611c58b, type: 2}
+  - {fileID: 11400000, guid: ae88a1cd2f8f5d14f89866747d82edd3, type: 2}
+  - {fileID: 11400000, guid: 177380ed65a977a4e9e4faaef7f4298e, type: 2}
+  - {fileID: 11400000, guid: 123b72f4bcdbc2d4cbfda7288c1663d3, type: 2}
+  - {fileID: 11400000, guid: c3733ddc47a795f47bf7e691467fc5f4, type: 2}
+  - {fileID: 11400000, guid: e41ab8527620b2b4c83fd0e233659a3a, type: 2}
+  hitPoints: 1000
+  toughness: 1000
+  strength: 100
+  speed: 0
+  growthSpeed: 100
+  decaySpeed: 0
+  lifeSpan: 1000
+  sexualMaturity: 15
+  gestationPeriod: 280
+  offspringAmount: 1
+  offspringVariability: 3
+  range: 0
+  wanderDistance: 50
+  preferredBiomes: []
+  preferredFoodTypes: 
+  preferredFood: []
+  preferredFoodGrowthStage: []
+  canEatOutsideOfPreferredGrowthStage: 0
+  beneficialOrganisms: []
+  enemyOrganisms: []
+  sociability: 50
+  boldness: 50
+  selfishness: 50
+  adaptability: 50
+  integrity: 50
+  willpower: 50
+  intelligence: 50

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57be8d0c26cb9e2438a3537b3d2038e8, type: 3}
+  m_Name: A_BaseOrganism
+  m_EditorClassIdentifier: 
+  organismName: BaseOrganism
+  model: {fileID: 0}
+  trophicLevel: 0
+  kingdom: 0
+  phyla: 0
+  range: 0
+  resourceStatus: 0
+  movement: 
+  sexes: 
+  needs: []
+  growthStages: []
+  preferredBiomes: []
+  preferredFoodTypes: 
+  preferredFood: []
+  preferredFoodGrowthStage: []
+  canEatOutsideOfPreferredGrowthStage: 0
+  beneficialOrganisms: []
+  enemyOrganisms: []
+  hitPoints: 100
+  toughness: 100
+  strength: 100
+  speed: 100
+  lifeSpan: 100
+  reproductionTime: 100
+  offspringAmount: 100
+  growthSpeed: 100
+  decaySpeed: 0
+  sociability: 50
+  boldness: 50
+  selfishness: 50
+  adaptability: 50
+  integrity: 50
+  willpower: 50
+  intelligence: 50

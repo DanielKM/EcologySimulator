@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57be8d0c26cb9e2438a3537b3d2038e8, type: 3}
+  m_Name: C_BaseConsumer
+  m_EditorClassIdentifier: 
+  organismName: BaseConsumer
+  model: {fileID: 0}
+  trophicLevel: 1
+  kingdom: 0
+  phyla: 0
+  range: 2
+  resourceStatus: 1
+  movement: 02000000
+  sexes: 0100000002000000
+  needs:
+  - {fileID: 11400000, guid: c856c84d629290742b77f91c3fa11230, type: 2}
+  - {fileID: 11400000, guid: 405395a6cb9ca624a814f735e856223b, type: 2}
+  - {fileID: 11400000, guid: 06d08eb86fd371c4b85aa181530a17b7, type: 2}
+  - {fileID: 11400000, guid: 80eb25bf2de7b674087c0f974663e6d6, type: 2}
+  - {fileID: 11400000, guid: 7a977ab92e004e9428c8ee408620a2ca, type: 2}
+  - {fileID: 11400000, guid: e995118a166290a4683da243e5f21360, type: 2}
+  - {fileID: 11400000, guid: e1eb3441597237943822f1f4bd682c9f, type: 2}
+  - {fileID: 11400000, guid: 942aef9e7272ab0459558d8263700355, type: 2}
+  growthStages:
+  - {fileID: 11400000, guid: 3697a0db721af0f45a0581a2b42704e4, type: 2}
+  - {fileID: 11400000, guid: 1d433a2d2264beb4ba0cadebbaa89302, type: 2}
+  - {fileID: 11400000, guid: fa7ceb4847596a04ab83dbce6d886e06, type: 2}
+  - {fileID: 11400000, guid: a111754e3a030ee48a79fea9821cd374, type: 2}
+  - {fileID: 11400000, guid: cc353ef357e79224c86a23261da05f4a, type: 2}
+  preferredBiomes: []
+  preferredFoodTypes: 
+  preferredFood: []
+  preferredFoodGrowthStage: []
+  canEatOutsideOfPreferredGrowthStage: 0
+  beneficialOrganisms: []
+  enemyOrganisms: []
+  hitPoints: 100
+  toughness: 100
+  strength: 100
+  speed: 100
+  growthSpeed: 100
+  decaySpeed: 0
+  lifeSpan: 100
+  sexualMaturity: 15
+  gestationPeriod: 280
+  offspringAmount: 2
+  offspringVariability: 3
+  sociability: 50
+  boldness: 50
+  selfishness: 50
+  adaptability: 50
+  integrity: 50
+  willpower: 50
+  intelligence: 50
